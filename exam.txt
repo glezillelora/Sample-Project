@@ -1,0 +1,214 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style>
+	.head{
+		width: cover;
+		height: 50px;
+		background-color: hotpink;
+		color: white;
+		text-align: center;
+		padding-top: 2px;
+		padding-bottom: 3px;
+	}
+	.bigBox{
+		width: 1300px;
+		height: 640px;
+		background-color: white;
+		margin: 5px;
+	}
+	#color{
+		background-color: green;
+	}
+	#color1{
+		background-color: brown;
+	}
+	#color2{
+		background-color: yellow;
+	}
+	#color3{
+		background-color: dimgray;
+	}
+	#color4{
+		background-color: violet;
+	}
+	.box{
+		width: 97%;
+		height: 50px;
+		color: white;
+		text-align: center;
+		padding-bottom: 5px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 5px;
+	}
+	.footer{ 
+	  margin: 0 290px 0 290px;
+	  height: 20px;
+	  border-radius: 10px;
+	}
+	.content{
+		width: 200px;
+	    height: 500px;
+	    float: left;
+	    margin: 0 11px
+
+	}
+	.pic{
+		width: 195px;
+	    height: 200;
+	    margin-left: 5px 0 0 0 ;
+	    margin-bottom: 10px;
+	    margin-top: 10px;
+	}
+	.text{
+		width: 195px;
+	    height: 200px;
+	    margin: 3px 0 0 0 ;
+	    margin-bottom: 10px;
+	    background-color: white;
+	    text-align: justify;
+	}
+	.login{
+		width: 149%;
+		height: 50px;
+		color: white;
+		text-align: center;
+		padding-bottom: 5px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 5px;
+		margin-top: 15px;
+
+	}
+	.boxlogin{
+		width: 149%;
+		height: 50px;
+		color: white;
+		text-align: center;
+		padding-bottom: 5px;
+		float: left;
+		margin-right: 10px;
+		margin-bottom: 5px;
+		margin-top: 15px;
+		border: 3px;
+		border-color: seagreen;
+	}
+	form {
+	  border: 3px solid #darkgreen;
+	}
+
+
+	input[type=text], input[type=password] {
+	  width: 100%;
+	  padding: 12px 20px;
+	  margin: 8px 0;
+	  border: 1px solid #ccc;
+	  box-sizing: border-box;
+	}
+
+
+	button {
+	  background-color: #04AA6D;
+	  color: black;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  width: 100%;
+	}
+
+		
+</style>
+</head>
+<body>
+	<div class = "head">
+		<h2>TRENDS IN INFORMATION TECHNOLOGY INDUSTRY</h2>
+	</div>
+	<div class="bigBox">
+	<div class="content">.
+		<div id = "color" class = "box">
+			<p>Machine Learning <br> Aritificial Intelligence</p>
+		</div>
+		<div class="pic">
+			<img src="1.jpg" width="195" height="200">
+		</div>
+		<div class="text">
+			<p>Artificial Intelligence and Machine Learning have the potential to change the future world and have been making headlines among the emerging information technology trends in recent years. Machine learning (ML) involves training machines to perform tasks without being specifically programmed.</p>
+		</div>
+	</div>
+	<div class = "content">.
+		<div id="color1" class= "box">
+			<p>Edge Computing <br> Quantum Computing</p>
+		</div>
+		<div class="pic">
+			<img src="2.jpg" width="195" height="200">
+			
+		</div>
+		<div class="text">
+			<p>Edge computing is a distributed computing framework that brings computation and data storage closer to the data source. Using edge computing can strengthen businesses. It also brings significant benefits such as faster insights, improved response times, and enhanced bandwidth availability.</p>
+			
+		</div>
+	</div>
+	<div class = "content">.
+		<div id="color2" class= "box">
+			<p>Cybersecurity</p>
+		</div>
+		<div class="pic">
+			<img src="3.jpg" width="195" height="200">
+			
+		</div>
+		<div class="text">
+			<p>Nowadays, the majority of organizations are undergoing digital transformation and making themselves vulnerable to data security threats (hackers, viruses), Cybersecurity is the best solution for the protection of their digital business data. The goal of cybersecurity is to avoid cyberattacks, including protecting systems, networks, programs,</p>
+			
+		</div>
+	</div>
+	<div class = "content">.
+		<div id="color3" class= "box">
+			<p>Blockchain</p>
+		</div>
+		<div class="pic">
+			<img src="4.jpg" width="195" height="200">
+			
+		</div>
+		<div class="text">
+			<p>The Blockchain is a digital register for recording information called blocks, they are securely linked to each other using cryptography. A blockchain serves as a digital ledger for duplicated transactions and is distributed across the entire network of computer systems on the Blockchain.</p>
+			
+		</div>
+	</div>
+	<div class="content">
+		<div id="color4" class="login">
+			<p>Login</p>
+		</div>
+		<div class="pic">
+			<img src="4.jpg">
+		</div>
+		<div class="boxlogin">
+			<div class="container" style="color:black; text-align: left;">
+			    <label for="uname"><b>Username</b></label>
+			    <input type="text" placeholder="Enter Username" name="uname" required>
+
+			    <label for="psw"><b>Password</b></label>
+			    <input type="password" placeholder="Enter Password" name="psw" required>
+
+			    <button type="submit">Login</button>
+			    <button type="button" class="cancelbtn">Cancel</button>
+			    <label>
+			      <input type="checkbox" checked="checked" name="remember">Remember me
+			    </label>
+			  </div>
+
+			  <div class="container" style="background-color:white;">
+			    <span class="psw"> <a href="#">Forgot password?</a></span>
+			  </div>
+			</form>
+		</div>
+	</div>
+
+	</div>
+	<hr align = "left" style = "height:30px;width: 100%; background-color: hotpink;" >   
+
+</body>
+</html>
